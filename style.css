@@ -34,6 +34,7 @@
 }
 .logo p{
     color: #ffffff;
+    font-weight: 800;
 }
 .logo img{
     width:calc(380px/4.4 );
@@ -72,7 +73,7 @@ label{
 input{
     outline: none;
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 5px;
     border: 1px solid var(--input-border-color);
 }
@@ -94,11 +95,11 @@ input{
 
 input:focus{
     border: 1px solid var(--input-border-focus-color);
-    box-shadow: 0 0 10px rgba(75, 0, 128, 0.73);
+    box-shadow: 1px 1px 8px rgba(95, 1, 162, 0.73);
 }
 input[type="password"]:invalid:focus{
     border: 1px solid var(--input-border-invalid-color);
-    box-shadow: 0 0 10px rgba(128, 21, 0, 0.841);
+    box-shadow: 1px 1px 8px rgba(128, 21, 0, 0.841);
 }
 button{
     background-color: var(--button-color);
