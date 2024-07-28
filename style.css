@@ -4,6 +4,8 @@
     --input-border-color: #E5E7EB;
     --input-border-invalid-color:red;
     --input-border-focus-color:blue;
+    --main-color:#3E3E3F;
+    color: var(--main-color);
 }
 :root{
     height: 100vh;
@@ -18,18 +20,23 @@
 
 .logo{
     position: relative;
-    top: 25%;
+    top: 22%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0,.6);
     color: white;
     font-size: 64px;
+    padding: 0;
+    height: 150px;
 
 }
+.logo p{
+    color: #ffffff;
+}
 .logo img{
-    width:calc(380px/4 );
-    height: calc(508px/4 );    
+    width:calc(380px/4.4 );
+    height: calc(508px/4.4 );    
 }
 .side{
     width: 30%;
@@ -37,13 +44,14 @@
 }
 .form{
     width: 70%;
-    background-color: #f9f9be;
+    background-color: #F9FAFB;
 }
 form{
-    background-color: #d7d7b8;
+    background-color: #ffffff;
     height: 30%;
     padding:10px 55px ;
     position: relative;
+    box-shadow: 5px 5px 4px #DDDEDF;
 }
 h4{
     font-size: 24px;
@@ -104,8 +112,8 @@ button{
     left: 5px;
 }
 button:hover{
-    background-color: #3b7233;
-    box-shadow: 1px 1px 15px #274e23;
+    background-color: #6B8065;
+    box-shadow: 1px 1px 15px #445D51;
 }
 .last-paragraph{
     position: absolute;
