@@ -92,7 +92,7 @@ input[type="password"]:invalid:focus{
     box-shadow: 0 0 10px rgba(128, 21, 0, 0.841);
 }
 button{
-    background-color: #274e23;
+    background-color: #385E4A;
     padding: 10px 34px;
     border: 0px solid ;
     border-radius: 6px;
