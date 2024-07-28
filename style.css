@@ -1,3 +1,117 @@
 *{
-    background-color: goldenrod;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    --input-border-color: #E5E7EB;
+    --input-border-invalid-color:red;
+    --input-border-focus-color:blue;
+}
+:root{
+    height: 100vh;
+}
+.container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    justify-content: start;
+}
+
+.logo{
+    position: relative;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0,.6);
+    color: white;
+    font-size: 64px;
+
+}
+.logo img{
+    width:calc(380px/4 );
+    height: calc(508px/4 );    
+}
+.side{
+    width: 30%;
+    background:url(./images/monstera-deliciosa-plant-leaves-garden.jpg);
+}
+.form{
+    width: 70%;
+    background-color: #f9f9be;
+}
+form{
+    background-color: #d7d7b8;
+    height: 30%;
+    padding:10px 55px ;
+    position: relative;
+}
+h4{
+    font-size: 24px;
+    letter-spacing: .6px;
+    word-spacing: 2px;
+    width: 70%;
+}
+
+button,p{
+    margin-left:55px;
+}
+label{
+    display: block;
+    font-size: 14px;
+    color: rgb(56, 56, 56);
+}
+input{
+    outline: none;
+    display: block;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--input-border-color);
+}
+.first-paragraph{
+    margin-top: 150px;
+    margin-left: 55px;
+
+
+}
+.second-paragraph{
+    margin-left: 55px;
+    margin-bottom: 70px;
+}
+.part-container{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 15px ;
+}
+
+input:focus{
+    border: 1px solid var(--input-border-focus-color);
+    box-shadow: 0 0 10px rgba(75, 0, 128, 0.73);
+}
+input[type="password"]:invalid:focus{
+    border: 1px solid var(--input-border-invalid-color);
+    box-shadow: 0 0 10px rgba(128, 21, 0, 0.841);
+}
+button{
+    background-color: #274e23;
+    padding: 10px 34px;
+    border: 0px solid ;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 350px;
+    left: 5px;
+}
+button:hover{
+    background-color: #3b7233;
+    box-shadow: 1px 1px 15px #274e23;
+}
+.last-paragraph{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+}
+a{
+    text-decoration: none;
 }
