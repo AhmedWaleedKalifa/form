@@ -5,6 +5,7 @@
     --input-border-invalid-color:red;
     --input-border-focus-color:blue;
     --main-color:#3E3E3F;
+    --button-color:#385E4A;
     color: var(--main-color);
 }
 :root{
@@ -100,7 +101,7 @@ input[type="password"]:invalid:focus{
     box-shadow: 0 0 10px rgba(128, 21, 0, 0.841);
 }
 button{
-    background-color: #385E4A;
+    background-color: var(--button-color);
     padding: 10px 34px;
     border: 0px solid ;
     border-radius: 6px;
@@ -121,5 +122,6 @@ button:hover{
     left: 0px;
 }
 a{
+    color: var(--button-color);
     text-decoration: none;
 }
